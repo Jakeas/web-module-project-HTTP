@@ -47,7 +47,7 @@ console.log({id})
 		.then(res =>{
 			console.log({res})
 			props.setMovies(res.data)
-			push(`/movie/${id}`)
+			push(`/movies/${id}`)
 		})
 		.catch(err => {
 			console.log(err)
